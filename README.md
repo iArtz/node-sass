@@ -1,2 +1,2 @@
 # node-sass
-Node Sass
+Node SASS

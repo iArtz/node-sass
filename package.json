@@ -1,0 +1,20 @@
+{
+  "name": "node-sass",
+  "version": "1.0.0",
+  "description": "node sass",
+  "main": "index.js",
+  "repository": "https://github.com/iArtz/node-sass",
+  "author": "iArtz",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "sass": "node-sass -w sass -o public/css",
+    "start": "live-server --open=public"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
